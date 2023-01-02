@@ -1,0 +1,14 @@
+{
+  "name": "practicandojs",
+  "version": "1.0.0",
+  "description": "Practicas",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Victor Ovalle <testprueba066@gmail.com>",
+  "license": "MIT"
+}
