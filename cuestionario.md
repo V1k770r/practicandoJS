@@ -47,3 +47,32 @@ Es cuando la validación de nuestros condicionales nunca se cumple y termina tot
 - ¿Puedo mezclar ciclos y condicionales?
 
 Sí, aunque los ciclos son una especie de condionales, nada nos impide agregar más condionales dentro del ciclo.
+
+## LISTAS
+
+- ¿Que es un array?
+
+Es una lista de elementos.
+
+``` 
+const array = [1, 'jaja', true, false];
+```
+
+- ¿Que es un objeto?
+
+Es una lista de elementos PERO cada elemento tiene un nombre clave.
+
+``` 
+const obj = {
+    nombre: 'Fulanito',
+    edad: 3,
+};
+```
+
+- ¿Cuando es mejor usar objetos o arrays?
+
+Arrays cuando lo que haremos en un elemento es lo mismo que en todo los demas (la regla se puede incumplir). Mientras que un objeto cuando los nombres de cada elemento son importantes para nuestro algoritmo.
+
+-¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+
+Si. Los arrays pueden guardar objetos. Y los objetos pueden guardar arrays entre sus propiedades. 

@@ -1,4 +1,4 @@
-const { sortAndDeduplicateDiagnostics } = require("typescript");
+const { sortAndDeduplicateDiagnostics, isTypeOnlyImportOrExportDeclaration } = require("typescript");
 
 let nombre = "Victor";
 let apellido = "Ovalle";
@@ -46,3 +46,60 @@ if (tipoDeSuscripcion == 'Free') {
     console.log("Tu y alguien mas pueden tomar TODOS los cursos de Platzi durante un año");
 }
 
+
+for (let i = 0; i < 5; i++){
+    console.log("El valor de i es: " + i)
+}
+
+for (let i = 10; i >= 2; i--){
+    console.log("El valor de i es: " + i);
+}
+
+
+let i = 0;
+while (i < 5){
+    console.log("El valor de i es: " + i);
+    i++;
+}
+
+let x = 10;
+while (x >= 2){
+    console.log("El valor de x es: " + x);
+    x--;
+}
+
+let respuesta;
+while( respuesta != '4') {
+    let pregunta = prompt('¿Cuanto es 2 + 2');
+    respuesta = pregunta;
+}
+
+
+function imprimirPrimerElementoArray(arr){
+    console.log(arr[2])
+}
+
+imprimirPrimerElementoArray(['Juanita','roro','jojo'])
+
+
+function imprimirTodoLosElementosUnoxUno(arrays) {
+for(let i = 0; i < arrays.length; i++) {
+    console.log(arrays[i])
+    }
+}
+
+imprimirTodoLosElementosUnoxUno(['Juanita','roro','jojo'])
+
+// investigar con san google xd!
+
+function imprimirElementoPorElementoObjeto(obj) {
+    const arr = Object.values(obj);
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+    }
+}
+
+imprimirElementoPorElementoObjeto({
+    nombre: 'Fulanito',
+    edad: 3,
+})
