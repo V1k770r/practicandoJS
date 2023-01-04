@@ -3,7 +3,6 @@ const { sortAndDeduplicateDiagnostics } = require("typescript");
 let nombre = "Victor";
 let apellido = "Ovalle";
 let nombreDeUsuarioPlatzi = "Edu2022";
-let edad = 36;
 let correoElectronico = "Victor@platzi.com";
 let mayorDeEdad = true;
 let dineroAhorrado = 0;

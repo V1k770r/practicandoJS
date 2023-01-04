@@ -23,4 +23,27 @@ Son la forma en que ejecutamos un bloque de codigo u otro dependiendo de alguna 
 
 - ¿Que tipos de condicionales existen en JavaScript y cuales son sus diferencias?
 
-IF (else y else if), Switch
+If (else y else if), Switch.
+El condicional if (con else y else if) nos permite hacer validaciones completamente distintas (si asi queremos) en cada validacion o condicional. En cambio, en el switch todos los cases se comparan con las misma variable o condicion que definimos en el switch.
+
+- ¿Puedo combinar funciones y condicionales?
+
+Si. Las fucniones pueden encapsular cualquier bloque de codigo, incluyendo condicionales. 
+
+## CICLOS
+
+- ¿Qué es un ciclo?
+
+La forma de ejecutar un bloque de código hasta que se cumpla cierta condición.
+
+- ¿Qué tipos de ciclos existen en JavaScript?
+
+While, do while y for.
+
+- ¿Qué es un ciclo infinito y por qué es un problema?
+
+Es cuando la validación de nuestros condicionales nunca se cumple y termina toteando (dañando) la aplicación (e.j. cuando el navegador ya no puede más de tanta ejecución de ese bloque de código).
+
+- ¿Puedo mezclar ciclos y condicionales?
+
+Sí, aunque los ciclos son una especie de condionales, nada nos impide agregar más condionales dentro del ciclo.
