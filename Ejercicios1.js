@@ -1,4 +1,4 @@
-const { sortAndDeduplicateDiagnostics, isTypeOnlyImportOrExportDeclaration } = require("typescript");
+
 
 let nombre = "Victor";
 let apellido = "Ovalle";
@@ -102,4 +102,6 @@ function imprimirElementoPorElementoObjeto(obj) {
 imprimirElementoPorElementoObjeto({
     nombre: 'Fulanito',
     edad: 3,
+    comidas: ['carapulcra','tallarines'],
 })
+
